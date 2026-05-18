@@ -2,11 +2,11 @@
 name = "smard-time-series"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "google-cloud-storage>=2.0",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.uv]
-dev-dependencies = []
+[dependency-groups]
+dev = []
