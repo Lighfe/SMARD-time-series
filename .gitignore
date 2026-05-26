@@ -54,3 +54,10 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Local GCS cache
+data/raw/*
+!data/raw/.gitkeep
+
+# Claude Code Skills.md
+.claude/*
